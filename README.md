@@ -1,6 +1,6 @@
 # Browser Link Inspector 2019
 
-[![Build status](https://ci.appveyor.com/api/projects/status/ix60r69heymrn69f?svg=true)](https://ci.appveyor.com/project/madskristensen/browserlinkinspector)
+[![Build status](https://ci.appveyor.com/api/projects/status/qlabb1fkbck7sujb?svg=true)](https://ci.appveyor.com/project/madskristensen/browserlinkinspector2019)
 
 Download this extension from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.BrowserLinkInspector2019)
 or get the [CI build](https://www.vsixgallery.com/extension/e607008b-f079-4e79-8d23-1d8c5dba1626/).
