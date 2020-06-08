@@ -1,7 +1,4 @@
-﻿/// <reference path="../_intellisense/browserlink.intellisense.js" />
-/// <reference path="../_intellisense/jquery-1.8.2.js" />
-
-(function (browserLink, $) {
+﻿(function (browserLink, $) {
   /// <param name="browserLink" value="bl" />
   /// <param name="$" value="jQuery" />
 
