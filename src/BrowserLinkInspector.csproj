@@ -74,15 +74,19 @@
   <ItemGroup>
     <Reference Include="Microsoft.WebTools.Languages.Html">
       <HintPath>..\lib\Microsoft.WebTools.Languages.Html.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.WebTools.Languages.Html.Editor">
       <HintPath>..\lib\Microsoft.WebTools.Languages.Html.Editor.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.WebTools.Languages.Shared">
       <HintPath>..\lib\Microsoft.WebTools.Languages.Shared.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.WebTools.Languages.Shared.Editor">
       <HintPath>..\lib\Microsoft.WebTools.Languages.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -98,7 +102,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.SDK">
+    <PackageReference Include="Microsoft.VisualStudio.SDK" ExcludeAssets="runtime">
       <Version>16.0.205</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.VSSDK.BuildTools">
